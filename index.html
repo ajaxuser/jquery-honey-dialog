@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="honey-dialog.css">
+    </head>
+    <body>
+        <input type="button" value="点击一下" class="button">
+    </body>
+</html>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript" src="honey-dialog.js"></script>
+<script type="text/javascript">
+jQuery(function($){
+    $('input.button').click(function(){
+        $('body').dialog('<div style="margin-top:30px;margin-left:15px;">用鼠标拖拽试试</div>');
+    });
+});
+</script>

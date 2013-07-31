@@ -1,0 +1,29 @@
+div.shadow {
+    width:100%; 
+    background:#666; 
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    position:absolute; 
+    top:0; 
+    left:0; 
+    z-index:10000;
+}
+div.dialog {
+    min-width:380px; 
+    min-height:100px; 
+    background:#fff; 
+    border:solid 8px #666;
+    position:absolute; 
+    top:25%; 
+    left:33%; 
+    z-index:10001;
+}
+div.dialog_close {
+    background:url('close.png');
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:-18px;
+    right:-20px;
+    cursor:pointer;
+}
