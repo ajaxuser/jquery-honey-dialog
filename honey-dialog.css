@@ -27,3 +27,42 @@ div.dialog_close {
     right:-20px;
     cursor:pointer;
 }
+
+/*** button ***/
+a.button {
+    text-decoration:none;
+    background:#999;
+    color:#FFFFFF;
+    height:25px;
+    padding:5px 15px;
+    text-align:center;
+    border:none;
+    font-weight:bold;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    cursor:pointer;
+}
+
+a.cancel_button {
+    background:#ff4500;
+}
+
+a.confirm_button {
+    background:#008000;
+}
+    
+/*** 提示 ****/
+.notice {
+    margin-top:15px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.notice .msg {
+    font-size:15px;
+    font-weight:bold;
+}
+
+.notice .buttons {
+    margin-top:20px;
+}
