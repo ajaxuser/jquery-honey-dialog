@@ -1,4 +1,1 @@
-jquery-honey-dialog
-===================
-
-基于jQuery的dialog插件
+Dialog plugin base on jQuery
